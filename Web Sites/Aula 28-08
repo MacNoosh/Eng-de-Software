@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang = "Pt-br">
+	<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device=width, inicial-scale=1.0">
+	<title> Aula 3</title>
+	</head>
+	<body>
+	<header>
+	<h1>Encantos da Palavra</h1>
+	</header>
+	<p>Um café para os amantes da literatura</p>
+	<nav>
+		<ul>
+			<li><a href ="#sessao1">Descubra nossa essência </a></li>
+			<li><a href ="#sessao2">Saraus & Lançamentos </a></li>
+			<li><a href ="#sessao3">Nossas Estantes </a></li>
+			<li><a href ="#sessao4">Degustação Literária </a></li>
+			<li><a href ="#sessao5">Faça sua Reserva </a></li>
+		</ul>
+	</nav>
+	<hr>
+	<section id="sessao1">
+	<h2>Descubra nossa essência</h2>
+	<p>No coração da cidade, o "Encantos da Palavra" é um refúgio para os apaixonados por histórias e aromas.
+	Aqui, cada xícara de café é acompanhada por contos, poesias e romances.</p>
+	<figure>
+	<img src="https://cdnm.westwing.com.br/glossary/uploads/br/2015/02/21141945/xicara-de-cafe-ampliada-visao-de-cima-PINTEREST-VEJA.png">
+	<figcaption>Uma tarde tranquila no "Encantos da Palavra"</figcaption>
+	</figure>
+	</section>
+	
+	<section id="sessao2">
+	<h2>Saraus & Lançamentos</h2>
+	<p>Todo mês, convidamos autores locais para partilhar suas histórias, poesias e debater sobre literatura. Confira
+nossa<a href="https://www.sympla.com.br/eventos/rio-de-janeiro-rj"> agenda de eventos.</a> </p>
+
+	
+	<section id="sessao3">
+		<h2>Meu segundo exemplo</h2>
+		<p>Este é um outro paragrafo  !!! </p>
+	</section>
+	</div>
+	<footer>
+	2023	versão brasileira HERBERT RICHARDS
+	</footer>
+	</body>
+	<hr>
+</html>
