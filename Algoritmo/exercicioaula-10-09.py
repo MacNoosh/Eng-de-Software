@@ -1,4 +1,3 @@
-
 def potencia(base, expoente):
     if expoente == 0:
         return 1
@@ -13,8 +12,8 @@ def fibonacci(n):
     elif n == 1:
         return 1
     return fibonacci(n - 1) + fibonacci(n - 2)
-resultado_fibonacci = fibonacci(5)
-print(f"O 5º termo da sequência de Fibonacci é {resultado_fibonacci}")
+resultado_de_fibonacci = fibonacci(1)
+print(f"O 5º termo da sequência de Fibonacci é {resultado_de_fibonacci}")
 
 
 def contar_digitos(n):
@@ -25,16 +24,15 @@ resultado_contar_digitos = contar_digitos(12345)
 print(f"O número 12345 tem {resultado_contar_digitos} dígitos")
 
 
-def is_palindromo(s):
+def palindromo(s):
     if len(s) <= 1:
         return True
     if s[0] != s[-1]:
         return False
-    return is_palindromo(s[1:-1])
-resultado_is_palindromo_1 = is_palindromo("radar")
-resultado_is_palindromo_2 = is_palindromo("hello")
-print(f"'radar' é um palíndromo? {resultado_is_palindromo_1}")
-print(f"'hello' é um palíndromo? {resultado_is_palindromo_2}")
-
+    return palindromo(s[1:-1])
+resultado_do_palindromo_1 = palindromo("Renner")
+resultado_do_palindromo_2 = palindromo("osso")
+print(f"'Renner' é um palíndromo? {resultado_do_palindromo_1}")
+print(f"'ossos' é um palíndromo? {resultado_do_palindromo_2}")
 
 
