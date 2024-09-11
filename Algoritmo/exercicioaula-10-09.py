@@ -33,8 +33,8 @@ def palindromo(s):
     return palindromo(s[1:-1])
 resultado_do_palindromo_1 = palindromo("ola")
 resultado_do_palindromo_2 = palindromo("osso")
-print(f"'Renner' é um palíndromo? {resultado_do_palindromo_1}")
-print(f"'ossos' é um palíndromo? {resultado_do_palindromo_2}")
+print(f"'ola' é um palíndromo? {resultado_do_palindromo_1}")
+print(f"'osso' é um palíndromo? {resultado_do_palindromo_2}")
 
 
 
