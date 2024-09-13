@@ -1,5 +1,54 @@
 body {
-	background-color: rgba(0,0,255,0.3);
-	color: red;
-	text-align:center;
+	background-color : #ff8080;
+	background-color : pink;	
+	background-color : rgb(255,120,10);
+	margin : 20px; 
+	font-family: "SUSE", sans-serif;
 }
+ 
+	.sessao-1 {
+	/*text-align: center;*/
+	padding: 20px;
+	border : solid 5px black;
+	margin-bottom : 5%;
+	}
+
+	.sessao-1 h2{
+	color: blue;
+	}
+	
+	.sessao-2 {
+	border: solid 10px;
+	border-color : black white;
+	}
+
+	.sessao-1 {
+	color: purple; 	
+	}
+
+	.sessao-2 h2 {
+	color: yellow;
+	}
+
+	.sessao-2, #exemplo {
+	text-align: right;
+	}
+
+	.sessao-2 p+p {
+	color: green;
+	}
+
+	.sessao-2 h3 {
+	color: brown;
+	font-size: 30px;
+	}
+
+	#exemplo {
+	color: orange;
+	}
+
+	#sessao-3 {
+	color: green;
+	}
+
+

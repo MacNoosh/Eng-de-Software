@@ -1,0 +1,23 @@
+body {
+	background-color : pink;	
+	margin : 20px; 
+	font-family: "SUSE", sans-serif;
+}
+ 
+	.sessao-1 h1 {
+	text-align: center;
+	padding: 5px;
+	border : solid 5px black;
+	margin-bottom : 10%;
+	}
+
+	img {
+		border : solid 10px black;
+		margin : auto	;
+		text-align : center;
+	}
+	
+	#imagem {
+		text-align : center;
+	}
+

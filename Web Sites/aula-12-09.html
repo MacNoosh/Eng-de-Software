@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>parte 2 - Introdução ao CSS</title>
+		<!--CSS externo deve ser assim-->
+		<!--<link rel="stylesheet" href="style.css">-->
+		
+		<!--Aqui CSS interno-->
+		<style>
+		
+		.sessao-1 {
+			text-align: center;
+		 }
+		  
+		.sessao-1 h2{
+			color: blue;
+		}
+		
+		.sessao-1 {
+			color: purple; 	
+		}
+		
+		.sessao-2 h2 {
+			color: yellow;
+		}
+		
+		.sessao-2, #exemplo {
+			text-align: right;
+		}
+		
+		.sessao-2 p+p {
+			color: green;
+		}
+		
+		.sessao-2 h3 {
+			color: brown;
+			font-size: 30px;
+		}
+		
+		#exemplo {
+			color: orange;
+		}
+		
+		#sessao-3 {
+			color: green;
+		}
+		
+		</style>
+	</head>
+	<body>
+		<div class="sessao-1">
+			<!-- Incluir css inline ho h1-->
+			<h1 style="color: red">Aqui será red</h1>
+			<h2>Aqui será blue</h2>
+			<p>Aqui será purple</p>
+		</div>
+		<div class="sessao-2">
+			<h2>Aqui será yellow</h2>
+			<h3>Aqui será brown</h3>
+			<p>Aqui black</p>
+			<p>Aqui green</p>
+		</div>
+		<div id ="exemplo">
+			<p>Aqui tambem yellow</p>
+		</div>
+		<div id="sessao-3">
+			<h2>teste</h2>
+			<p>teste</p>
+		</div>
+	</body>
+</html>
