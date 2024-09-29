@@ -1,0 +1,41 @@
+<style>
+        table {
+            width: 80%;
+            border-collapse: collapse;
+            margin: 20px 0;
+			
+        }
+        th, td {
+            border: 2px solid #000;
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background-color: #4682B4;
+            color: black;
+        }
+        td {
+            background-color: #FFFFE0;
+        }
+        .categoria {
+            background-color: #F4A460;
+        }
+        .total {
+            background-color: #4682B4;
+            color: white;
+        }
+        .dados {
+            background-color: #E6E6FA;
+            font-style: italic;
+            text-align: left;
+        }
+        .preco {
+            color: red;
+            font-weight: bold;
+        }
+        .titulo {
+            color: red;
+            font-weight: bold;
+			
+        }
+    </style>
